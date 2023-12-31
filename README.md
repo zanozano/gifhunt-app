@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# GifHunt App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GifHunt App](/img/favicon.svg)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+GifHunt is an engaging web application that allows users to explore and discover entertaining GIFs. Embark on your ultimate GIF adventure with GifHunt, where you can search and find a wide variety of GIFs to express yourself in unique and fun ways. The app is built using React and leverages the Giphy API to fetch GIFs based on user queries.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [GifHunt App](#gifhunt-app)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Usage](#usage)
+    - [Prerequisites](#prerequisites)
+    - [Clone the Repository](#clone-the-repository)
+    - [Install Dependencies](#install-dependencies)
+    - [Start the Application](#start-the-application)
+  - [Features](#features)
+  - [Dependencies](#dependencies)
+  - [Contributions](#contributions)
+  - [Author](#author)
+  - [Repository](#repository)
+  - [Live Example](#live-example)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Before getting started, make sure you have the following tools installed on your system:
 
-### `npm run build`
+- Node.js: The application is built using Node.js.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Clone the Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone this repository to your local machine using the following command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/zanozano/gifhunt-app.git
+```
 
-### `npm run eject`
+### Install Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Once you have cloned the repository, navigate to the project folder and install the necessary dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd gifhunt-app
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Start the Application
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run the application, use the provided start script:
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This script starts the development server and opens the app in your default web browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Features
 
-### Code Splitting
+- **GIF Exploration**: Users can search and explore a vast collection of GIFs.
+- **React Framework**: The application is built using React, providing a dynamic and responsive user interface.
+- **Giphy API Integration**: GIFs are fetched from the Giphy API based on user queries.
+- **Animated Transitions**: The app incorporates animated transitions for a visually appealing experience.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Dependencies
 
-### Analyzing the Bundle Size
+Here are some of the key dependencies used in this application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **react**: A JavaScript library for building user interfaces.
+- **react-dom**: React package for working with the DOM.
+- **react-scripts**: Configuration and scripts for Create React App.
+- **@testing-library**: Testing utilities for React applications.
+- **web-vitals**: Library for measuring web performance.
 
-### Making a Progressive Web App
+## Contributions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions to the GifHunt App project are welcome. Follow our guidelines for reporting issues, requesting features, or submitting pull requests in the GitHub repository.
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Author: Cristobal Manzano
 
-### Deployment
+## Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Type: Git
+- URL: [https://github.com/zanozano/gifhunt-app.git](https://github.com/zanozano/gifhunt-app.git)
 
-### `npm run build` fails to minify
+## Live Example
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Explore GifHunt and start your ultimate GIF adventure:
+
+[Live GifHunt App](https://gifhunt-app.web.app/)

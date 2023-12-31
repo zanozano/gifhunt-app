@@ -4,10 +4,15 @@
   "description": "Explore and discover entertaining GIFs with GifHunt - Your ultimate GIF adventure!",
   "author": "Cristobal Manzano",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zanozano/gifhunt-app.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
+    "firebase": "^10.7.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
