@@ -1,6 +1,6 @@
 # GifHunt App
 
-![GifHunt App](/img/favicon.svg)
+![GifHunt App](/public/img/favicon.svg)
 
 ## Description
 
