@@ -1,6 +1,8 @@
 {
-  "name": "gif-expert-app",
-  "version": "0.1.0",
+  "name": "gifhunt-app",
+  "version": "2.0.0",
+  "description": "Explore and discover entertaining GIFs with GifHunt - Your ultimate GIF adventure!",
+  "author": "Cristobal Manzano",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
